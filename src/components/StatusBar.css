@@ -1,42 +1,47 @@
 div.status {
-  width: 300px;
-  margin: auto;
-  display: flex;
-  margin-top: 20px;
-  background: teal;
+	width: 600px;
+	display: flex;
+	margin-top: 20px;
+	font-size: 4em;
+	font-weight: 500;
+	align-content: center;
+	align-items: center;
 }
 
 div.status > div {
-  width: 100%;
-  border: 5px outset rgb(0, 100, 100);
-  padding: 5px;
-  display: flex;
+	width: 100%;
+	padding: 2% 4%;
+	margin: 2% 4%;
+	height: auto;
+	display: flex;
+	border: 1px solid rgb(63, 63, 63);
 }
 
 div.status .status-black {
-  text-align: right;
+	text-align: right;
 }
 
-div.arrow {
-  visibility: hidden;
-  margin: auto;
-}
-
-div.active > div.arrow {
-  visibility: visible;
+div.status-black.active {
+	border: 4px solid rgb(63, 63, 63);
+	box-shadow: 4px 2px 20px rgba(0, 0, 0, 0.3);
 }
 
 div.circle {
-  height: 100%;
-  width: 15%;
-  border-radius: 50%;
-  margin: auto;
+	height: 80px;
+	width: 80px;
+	margin: auto;
 }
 
 div.circle.white {
-  background-color: rgba(255, 255, 255, 0.5);
+	background-image: url("../images/flo.png");
+	background-size: cover;
+	margin-right: auto;
+	margin-left: 0;
 }
 
 div.circle.black {
-  background-color: rgba(0, 0, 0, 0.5);
+	background-image: url("../images/mason.png");
+	background-size: cover;
+	margin-left: auto;
+	margin-right: 0;
 }

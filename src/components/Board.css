@@ -8,6 +8,8 @@ div.boardContainer {
 	width: 100%;
 	display: flex;
 	justify-content: center;
+	flex-direction: column;
+
 	align-items: center;
 }
 
@@ -17,6 +19,8 @@ div.board {
 	display: flex;
 	flex-direction: column;
 	background-color: rgb(134, 207, 162);
+	border: 4px solid rgb(63, 63, 63);
+
 	box-shadow: 4px 2px 20px rgba(0, 0, 0, 0.3);
 	margin: 0 auto;
 }
