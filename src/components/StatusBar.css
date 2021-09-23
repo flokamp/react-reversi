@@ -1,21 +1,22 @@
 div.status {
-	width: 400px;
+	width: 100%;
+	height: auto;
 	display: flex;
-	margin-top: 20px;
 	margin: 0 auto;
-	font-size: 4em;
+	font-size: 2.8em;
 	font-weight: 500;
-	align-content: center;
-	align-items: center;
+	justify-content: center;
+	position: fixed;
+	bottom: 10%;
 }
 
 div.status > div {
-	width: 100%;
-	padding: 2% 4%;
-	margin: 4%;
-	height: auto;
+	padding: 2%;
+	margin: 0 4% 2%;
 	display: flex;
+	width: 120px;
 	border: 1px solid rgb(63, 63, 63);
+	justify-content: center;
 }
 
 div.status .status-black {
@@ -33,9 +34,9 @@ div.status-white.active {
 }
 
 div.circle {
-	height: 80px;
-	width: 80px;
-	margin: auto;
+	height: 52px;
+	width: 52px;
+	margin: 0 auto;
 }
 
 div.circle.white {

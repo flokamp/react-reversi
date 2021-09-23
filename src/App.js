@@ -594,6 +594,7 @@ class App extends Component {
 	render() {
 		return (
 			<div className="page">
+				<h4>othello</h4>
 				<MessageBox
 					resetFn={this.resetBoard}
 					show={this.state.gameOver}
