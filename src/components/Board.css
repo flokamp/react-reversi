@@ -1,8 +1,22 @@
+div.page {
+	height: 100vh;
+	margin: 0 auto;
+}
+
+div.boardContainer {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 div.board {
-  height: 300px;
-  width: 300px;
-  display: flex;
-  flex-direction: column;
-  background-color: teal;
-  margin: auto;
+	height: 600px;
+	width: 600px;
+	display: flex;
+	flex-direction: column;
+	background-color: rgb(134, 207, 162);
+	box-shadow: 4px 2px 20px rgba(0, 0, 0, 0.3);
+	margin: 0 auto;
 }
