@@ -1,31 +1,15 @@
-h4 {
-	text-align: center;
-	font-size: 4em;
-	height: 20%;
-	margin: 0 auto;
-	line-height: 120px;
-}
-
-div.page {
-	margin: 0 auto;
-}
-
 div.boardContainer {
-	height: 80%;
-	width: 100%;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+	display: inline-block;
+	height: 100vh;
 }
 
 div.board {
-	height: 320px;
-	width: 320px;
+	width: 48vw;
+	height: 48vw;
 	display: flex;
 	flex-direction: column;
 	background-color: rgb(134, 207, 162);
 	border: 4px solid rgb(63, 63, 63);
 	border-style: outset;
 	box-shadow: 4px 2px 20px rgba(0, 0, 0, 0.3);
-	margin: 0 auto;
 }

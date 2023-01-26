@@ -9,7 +9,7 @@ class MessageBox extends Component {
 			classes = "message-box";
 		if (this.props.show) {
 			if (this.props.black > this.props.white) {
-				winner = "Mason";
+				winner = "Rob";
 				first = this.props.black;
 				second = this.props.white;
 			} else if (this.props.white > this.props.black) {

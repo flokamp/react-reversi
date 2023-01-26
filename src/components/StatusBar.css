@@ -1,22 +1,21 @@
+div.statusContainer {
+	display: inline-block;
+	width: 40%;
+	height: 100vh;
+}
+
 div.status {
-	width: 100%;
-	height: auto;
-	display: flex;
-	margin: 0 auto;
+	display: inline-block;
+	width: 20vw;
 	font-size: 2.8em;
 	font-weight: 500;
-	justify-content: center;
-	position: fixed;
-	bottom: 10%;
 }
 
 div.status > div {
-	padding: 2%;
-	margin: 0 4% 2%;
+	padding: 8%;
+	margin: 8%;
 	display: flex;
-	width: 120px;
 	border: 1px solid rgb(63, 63, 63);
-	justify-content: center;
 }
 
 div.status .status-black {
@@ -34,20 +33,20 @@ div.status-white.active {
 }
 
 div.circle {
-	height: 52px;
-	width: 52px;
+	height: 56px;
+	width: 56px;
 	margin: 0 auto;
 }
 
 div.circle.white {
-	background-image: url("../images/flo.png");
+	background-image: url("../images/me.png");
 	background-size: cover;
 	margin-right: auto;
 	margin-left: 0;
 }
 
 div.circle.black {
-	background-image: url("../images/mason.png");
+	background-image: url("../images/bf.png");
 	background-size: cover;
 	margin-left: auto;
 	margin-right: 0;

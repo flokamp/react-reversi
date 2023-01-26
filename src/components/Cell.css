@@ -12,7 +12,7 @@ div.cell:not(.over):hover {
 }
 
 div.cell.white.over {
-	background-image: url("../images/flo.png");
+	background-image: url("../images/me.png");
 	background-size: cover; /* Resize the background image to cover the entire container */
 	height: 100%;
 	width: 100%;
@@ -21,7 +21,7 @@ div.cell.white.over {
 }
 
 div.cell.black.over {
-	background-image: url("../images/mason.png");
+	background-image: url("../images/bf.png");
 	background-size: cover; /* Resize the background image to cover the entire container */
 	height: 100%;
 	width: 100%;

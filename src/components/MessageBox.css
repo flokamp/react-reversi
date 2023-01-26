@@ -4,7 +4,7 @@ div.message-box {
 	z-index: 999;
 	display: none;
 	left: 50%;
-	width: 400px;
+	width: 320px;
 	margin-left: -200px;
 	top: 150px;
 	font-size: 2em;

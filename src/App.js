@@ -594,13 +594,19 @@ class App extends Component {
 	render() {
 		return (
 			<div className="page">
-				<h4>othello</h4>
 				<MessageBox
 					resetFn={this.resetBoard}
 					show={this.state.gameOver}
 					black={this.state.black}
 					white={this.state.white}
 				/>
+				<div className="statusContainer">
+					<StatusBar
+						black={this.state.black}
+						white={this.state.white}
+						black_turn={this.state.black_turn}
+					/>
+				</div>
 				<div className="boardContainer">
 					<div className="board">
 						<Row
@@ -660,11 +666,6 @@ class App extends Component {
 							array={this.state.array[7]}
 						/>
 					</div>
-					<StatusBar
-						black={this.state.black}
-						white={this.state.white}
-						black_turn={this.state.black_turn}
-					/>
 				</div>
 			</div>
 		);
